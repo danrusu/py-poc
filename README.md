@@ -19,3 +19,11 @@ source venv/scripts/activate
 ```bash
 pip install requests
 ```
+
+### [Package manager - `pipenv`](https://packaging.python.org/en/latest/tutorials/managing-dependencies/)
+
+```bash
+pip install pipenv
+
+pipenv install requests
+```
