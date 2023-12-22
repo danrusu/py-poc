@@ -23,7 +23,7 @@ class Person:
 class Employee(Person):
   def __init__(self, name, age):
     super().__init__(name, age)
-    self.employed = 'true'
+    self.employed = True
 
   # override
   def message(self):
