@@ -25,5 +25,15 @@ pip install requests
 ```bash
 pip install pipenv
 
-pipenv install requests
+pipenv install requests #install package and save it to Pipfile
+
+pipenv install #install dependencies
+```
+
+### Docker
+
+```bash
+docker build -t py .
+
+docker run py
 ```
