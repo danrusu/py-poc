@@ -22,5 +22,5 @@ COPY . .
 RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
 USER appuser
 
-ENTRYPOINT [ "python", "src/request.py" ]
+ENTRYPOINT [ "python", "-m", "pytest", "-m", "not slow" ]
 

@@ -37,3 +37,16 @@ docker build -t py .
 
 docker run py
 ```
+
+### Pytest
+
+```bash
+# run the tests
+python -m pytest
+
+# list available fixtures
+python -m pytest --fixtures
+
+# list all markers
+python -m pytest --markers
+```
