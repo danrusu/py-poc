@@ -23,9 +23,9 @@ def person2():
 def test_demo():
   assert 1 == 2
 
-@pytest.mark.slow
-def test_slow():
-  assert 1 == 2
+# @pytest.mark.slow
+# def test_slow():
+#   assert 1 == 2
 
 def test_error_is_raised():
   with pytest.raises(KeyError):

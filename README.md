@@ -2,6 +2,15 @@
 
 ## Python poc for testing
 
+### Environment
+
+```bash
+# list of paths added to the sys.path, the search paths for imports
+PYTHONPATH
+
+
+```
+
 ### Create Virtual Environment
 
 ```bash
@@ -49,4 +58,10 @@ python -m pytest --fixtures
 
 # list all markers
 python -m pytest --markers
+```
+
+### Playwright tests
+
+```bash
+python -m pytest --headed --browser chromium -m ui
 ```
